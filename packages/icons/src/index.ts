@@ -1,2 +1,1 @@
-export * from './icons/LinkedIn';
-export * from './icons/Github';
+export * from './icons';

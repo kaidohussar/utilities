@@ -7,12 +7,11 @@
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "microbundle src/index.ts --jsx React.createElement",
+    "build": "microbundle ./src/index.ts --jsx React.createElement",
     "clean": "rimraf ./dist",
     "lint": "run-s lint:code",
     "lint:code": "eslint --ext ts,tsx src",
