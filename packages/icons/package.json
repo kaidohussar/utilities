@@ -1,5 +1,5 @@
 {
-  "name": "icons",
+  "name": "kaidohussar-icons",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -48,5 +48,6 @@
   },
   "peerDependencies": {
     "react": "^17.0.x"
-  }
+  },
+  "gitHead": "04301f83e0394fbc340fe15104f6a972ace27ed7"
 }
