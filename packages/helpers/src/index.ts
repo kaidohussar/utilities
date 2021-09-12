@@ -1,1 +1,1 @@
-export * from './hooks/useInterval';
+export { useInterval } from './hooks/useInterval';
