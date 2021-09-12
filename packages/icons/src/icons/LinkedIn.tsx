@@ -1,7 +1,7 @@
 import React from 'react';
 import {SvgProps} from "../types";
 
-const LinkedIn = (props: SvgProps) => (
+export const LinkedIn = (props: SvgProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40" {...props}>
         <path
             fill={props.fill || '#000'}
@@ -9,5 +9,3 @@ const LinkedIn = (props: SvgProps) => (
         />
     </svg>
 );
-
-export default LinkedIn;
