@@ -8,10 +8,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
  * @param function_ The callback to throttle
  * @param timeout Throttle timeout
  */
-export function useThrottle(
-    function_: Function,
-    timeout: number = 300
-): [(...args: any) => any, boolean] {
+export const useThrottle = (function_: Function, timeout: number = 300): [(...args: any) => any, boolean] => {
     const [ready, setReady] = useState(true);
     const timerRef = useRef<number | undefined>(undefined);
 
@@ -45,3 +42,4 @@ export function useThrottle(
 
     return [throttledFunction, ready];
 }
+
