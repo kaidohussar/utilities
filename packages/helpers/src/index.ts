@@ -1,2 +1,1 @@
-export * from './hooks/useInterval';
-export * from './hooks/useThrottle';
+export * from './hooks';
